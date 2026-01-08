@@ -1,0 +1,9 @@
+[submodule "rpi-hub-server"]
+	path = rpi-hub-server
+	url = https://github.com/WesP10/rpi-hub-server
+[submodule "cloud-services"]
+	path = cloud-services
+	url = https://github.com/WesP10/cloud-services
+[submodule "web-client"]
+	path = web-client
+	url = https://github.com/WesP10/web-client
