@@ -42,7 +42,7 @@ jobs:
     - name: Set up Node
       uses: actions/setup-node@v4
       with:
-        node-version: '18'
+        node-version: '20'
 
     - name: Install web dependencies
       run: |
@@ -52,12 +52,12 @@ jobs:
     - name: Run TypeScript type check
       run: |
         cd web-client
-        npm run type-check || true
+        npm run type-check
 
     - name: Run linter
       run: |
         cd web-client
-        npm run lint || true
+        npm run lint
 
     - name: Build web client
       run: |
