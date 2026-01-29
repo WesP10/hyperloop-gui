@@ -1,0 +1,89 @@
+# Operating system files
+.DS_Store
+Thumbs.db
+ehthumbs.db
+Desktop.ini
+
+# Python
+__pycache__/
+*.py[cod]
+*.pyo
+*.pyd
+*.pdb
+*.egg-info/
+*.egg
+dist/
+build/
+.eggs/
+*.whl
+.Python
+venv/
+env/
+.venv/
+venv*/
+pip-wheel-metadata/
+.pytest_cache/
+.coverage
+coverage.xml
+htmlcov/
+.mypy_cache/
+.ruff_cache/
+__pypackages__/
+
+# Node / JavaScript
+node_modules/
+npm-debug.log*
+yarn-debug.log*
+yarn-error.log*
+pnpm-debug.log*
+dist/
+build/
+.vite/
+.out/
+.esbuild/
+
+# IDEs and editors
+.vscode/
+.idea/
+*.suo
+*.user
+*.sln.docstates
+
+# Logs
+logs/
+*.log
+
+# Environment / Secrets
+.env
+.env.*
+.env.local
+.env.*.local
+secrets/
+*.pem
+*.key
+
+# Docker
+docker-compose.override.yml
+*.tar
+
+# Temporary and backup files
+*~
+*.tmp
+*.swp
+*.swo
+
+# Misc
+*.so
+*.dylib
+
+# Coverage / test artifacts
+nosetests.xml
+coverage.xml
+pytest_cache/
+
+# Local build / packaging
+*.egg
+pip-log.txt
+
+# Ignore VS Code workspace settings
+*.code-workspace
