@@ -18,7 +18,8 @@ jobs:
     - name: Checkout code
       uses: actions/checkout@v5
       with:
-        submodules: true
+        submodules: recursive
+        token: ${{ github.token }}
 
     - name: Set up Node.js
       uses: actions/setup-node@v4
